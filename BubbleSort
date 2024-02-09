@@ -7,3 +7,22 @@ void bubbleSort(vector<int>& arr, int n) {
         }
     }
 }
+
+
+===================  OPTIMAL  =====================
+
+void bubbleSort(vector<int>& arr, int n) {
+    for (int i = 1; i < n; ++i) {
+        bool swapped = false;  // Initialize outside the inner loop
+        for (int j = 0; j < n - i; ++j) {
+            if (arr[j] > arr[j + 1]) {
+                swap(arr[j], arr[j + 1]);
+                swapped = true;
+            }
+        }
+        
+        if (!swapped) {
+            break;  // If no swaps were made in the inner loop, the array is already sorted
+        }
+    }
+}
