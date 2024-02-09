@@ -49,5 +49,28 @@ temporary space is used for swapping
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.in every round we place largest element at last position
 TC:O(N2) SC: O(1)
 
+
 **Insertion Sort**
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
 TC: O(N^2) SC: O(1)
+
+
+**Merge Sort**
+Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e., the array has only one element left (an array with one element is always sorted). Then the sorted subarrays are merged into one sorted array.
+TC:
+SC:
+
+
+**Quick Sort**
+
+
+**Heap Sort**
+
+
+**Counting Sort**
+**Even Odd Sort**
+**Radix Sort**
+**Merge Sort**
+
+
