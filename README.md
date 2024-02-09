@@ -1,5 +1,7 @@
 # Searching-And-Sorting
 Codebase for efficient searching and sorting algorithms leaning
+
+
 **SEARCH ALGORITHMS**
 
 **Linear Search Algorithm**
@@ -21,4 +23,11 @@ Create a recursive function and compare the mid of the search space with the key
 TC:O(log N)
 SC :O(1), If the recursive call stack is considered then the auxiliary space will be O(logN).
 
+
+
+
 **SORTING ALGORITHMS**
+A Sorting Algorithm is used to rearrange a given array or list of elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of elements in the respective data structure.
+
+
+**Selection Sort**
