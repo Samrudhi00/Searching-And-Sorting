@@ -48,3 +48,6 @@ temporary space is used for swapping
 **Bubble Sort**
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.in every round we place largest element at last position
 TC:O(N2) SC: O(1)
+
+**Insertion Sort**
+TC: O(N^2) SC: O(1)
