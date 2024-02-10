@@ -58,19 +58,26 @@ TC: O(N^2) SC: O(1)
 **Merge Sort**
 Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
 Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e., the array has only one element left (an array with one element is always sorted). Then the sorted subarrays are merged into one sorted array.
-TC:
-SC:
+TC:O(nlogN) SC:O(n)
 
 
 **Quick Sort**
+QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
+Choice of Pivot:
+There are many different choices for picking pivots. 
+Always pick the first element as a pivot.
+Always pick the last element as a pivot (implemented below)
+Pick a random element as a pivot.
+Pick the middle as the pivot.
+Partition Algorithm:
+The logic is simple, we start from the leftmost element and keep track of the index of smaller (or equal) elements as i. While traversing, if we find a smaller element, we swap the current element with arr[i]. Otherwise, we ignore the current element.
+TC: O(nlogN) SC:O(n)
 
 **Heap Sort**
-
-
 **Counting Sort**
 **Even Odd Sort**
 **Radix Sort**
-**Merge Sort**
+
 
 
