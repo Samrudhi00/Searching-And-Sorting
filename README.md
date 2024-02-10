@@ -32,8 +32,10 @@ SC :O(1), If the recursive call stack is considered then the auxiliary space wil
 
 
 
+
 **SORTING ALGORITHMS**
 A Sorting Algorithm is used to rearrange a given array or list of elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of elements in the respective data structure.
+
 
 
 **Selection Sort**
@@ -55,10 +57,12 @@ Insertion sort is a simple sorting algorithm that works similar to the way you s
 TC: O(N^2) SC: O(1)
 
 
+
 **Merge Sort**
 Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
 Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e., the array has only one element left (an array with one element is always sorted). Then the sorted subarrays are merged into one sorted array.
 TC:O(nlogN) SC:O(n)
+
 
 
 **Quick Sort**
@@ -74,10 +78,33 @@ Partition Algorithm:
 The logic is simple, we start from the leftmost element and keep track of the index of smaller (or equal) elements as i. While traversing, if we find a smaller element, we swap the current element with arr[i]. Otherwise, we ignore the current element.
 TC: O(nlogN) SC:O(n)
 
+
+
 **Heap Sort**
-**Counting Sort**
+
 **Even Odd Sort**
+
+
+
+
+
+**NON-COMPARISION BASED ALGORITHMS**
+
+
+
+**Counting Sort**
+Counting Sort is a non-comparison-based sorting algorithm that works well when there is limited range of input values. It is particularly efficient when the range of input values is small compared to the number of elements to be sorted. The basic idea behind Counting Sort is to count the frequency of each distinct element in the input array and use that information to place the elements in their correct sorted positions.
+TC: O(N+M),inputArray[] and countArray[]
+SC: O(N+M),outputArray[] and countArray[]
+
+
+
 **Radix Sort**
+Radix Sort is a linear sorting algorithm that sorts elements by processing them digit by digit. It is an efficient sorting algorithm for integers or strings with fixed-size keys. 
+TC:O(d * (n + b)), where d is the number of digits, n is the number of elements, and b is the base of the number system being used
+SC:O(n + b)
+
+
 
 
 
